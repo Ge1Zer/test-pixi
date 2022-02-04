@@ -1,0 +1,11 @@
+{
+  "include":[
+    "./src/**/*", "typings.d.ts"
+  ],
+  "exclude": ["node_modules", "./src/**/*.stories.tsx"],
+  "files": ["src/index.ts"],
+  "compilerOptions": {
+    "noImplicitAny": true,
+    "target": "es5"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "name": "test-pixi",
+  "version": "0.0.1",
+  "description": "testing pixi",
+  "main": "index.js",
+  "repository": "https://github.com/Ge1Zer/test-pixi.git",
+  "author": "Prohoda Kirill <prohodakirill@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "start": "gulp default"
+  },
+  "homepage": "http://localhost:4000/",
+  "dependencies": {
+    "browser-sync": "^2.27.7",
+    "gulp": "^4.0.2",
+    "gulp-pug": "^5.0.0",
+    "gulp-sass": "^5.1.0",
+    "gulp-typescript": "^6.0.0-alpha.1",
+    "pixi.js": "5.0.0-rc",
+    "typescript": "^4.5.5"
+  },
+  "devDependencies": {
+    "sass": "^1.49.7"
+  }
+}

@@ -1,2 +1,2 @@
-# test-pixi
-Test Pixi project
+## Test-pixi
+Test Pixi.js project

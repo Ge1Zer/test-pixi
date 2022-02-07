@@ -1,11 +1,10 @@
 {
   "include":[
-    "./src/**/*", "typings.d.ts"
+    "./src/script/*", "typings.d.ts"
   ],
-  "exclude": ["node_modules", "./src/**/*.stories.tsx"],
-  "files": ["src/index.ts"],
+  "exclude": ["node_modules"],
   "compilerOptions": {
     "noImplicitAny": true,
-    "target": "es5"
+    "target": "ES2015"
   }
 }
